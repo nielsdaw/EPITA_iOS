@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D96739191C527A9A005BF701 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = D96739181C527A9A005BF701 /* placeholder.png */; };
+		D96739281C53F97B005BF701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96739271C53F97B005BF701 /* LaunchScreen.storyboard */; };
+		D9A19CCC1C18B9DD00E2A653 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A19CCB1C18B9DD00E2A653 /* main.m */; };
+		D9A19CCF1C18B9DD00E2A653 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A19CCE1C18B9DD00E2A653 /* AppDelegate.m */; };
+		D9A19CD21C18B9DD00E2A653 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A19CD11C18B9DD00E2A653 /* ViewController.m */; };
+		D9A19CD51C18B9DD00E2A653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A19CD31C18B9DD00E2A653 /* Main.storyboard */; };
+		D9A19CD71C18B9DD00E2A653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A19CD61C18B9DD00E2A653 /* Assets.xcassets */; };
+		D9A19CE51C18B9DD00E2A653 /* testTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A19CE41C18B9DD00E2A653 /* testTableViewTests.m */; };
+		D9A19CF01C18B9DD00E2A653 /* testTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A19CEF1C18B9DD00E2A653 /* testTableViewUITests.m */; };
+		D9C8312D1C21DC9500A12A98 /* news.xml in Resources */ = {isa = PBXBuildFile; fileRef = D9C8312C1C21DC9500A12A98 /* news.xml */; };
+		D9E808A31C5A0EAF00C2E159 /* cat.bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E808A21C5A0EAF00C2E159 /* cat.bg.png */; };
+		D9E808A51C5A0FE100C2E159 /* splash2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E808A41C5A0FE100C2E159 /* splash2.png */; };
+		D9E808AB1C5A457B00C2E159 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E808AA1C5A457B00C2E159 /* Icon.png */; };
+		D9EAB05D1C3D9E2B00FAB1A7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EAB05C1C3D9E2B00FAB1A7 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9A19CE11C18B9DD00E2A653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9A19CBF1C18B9DD00E2A653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9A19CC61C18B9DD00E2A653;
+			remoteInfo = testTableView;
+		};
+		D9A19CEC1C18B9DD00E2A653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9A19CBF1C18B9DD00E2A653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9A19CC61C18B9DD00E2A653;
+			remoteInfo = testTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D96739181C527A9A005BF701 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		D96739271C53F97B005BF701 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9A19CC71C18B9DD00E2A653 /* Novus Mondus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Novus Mondus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A19CCB1C18B9DD00E2A653 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9A19CCD1C18B9DD00E2A653 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9A19CCE1C18B9DD00E2A653 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9A19CD01C18B9DD00E2A653 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9A19CD11C18B9DD00E2A653 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9A19CD41C18B9DD00E2A653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9A19CD61C18B9DD00E2A653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9A19CDB1C18B9DD00E2A653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A19CE01C18B9DD00E2A653 /* Novus Mondus.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Novus Mondus.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A19CE41C18B9DD00E2A653 /* testTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTableViewTests.m; sourceTree = "<group>"; };
+		D9A19CE61C18B9DD00E2A653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A19CEB1C18B9DD00E2A653 /* Novus Mondus.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Novus Mondus.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A19CEF1C18B9DD00E2A653 /* testTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTableViewUITests.m; sourceTree = "<group>"; };
+		D9A19CF11C18B9DD00E2A653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C8312C1C21DC9500A12A98 /* news.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = news.xml; sourceTree = "<group>"; };
+		D9E808A21C5A0EAF00C2E159 /* cat.bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.bg.png; sourceTree = "<group>"; };
+		D9E808A41C5A0FE100C2E159 /* splash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash2.png; sourceTree = "<group>"; };
+		D9E808AA1C5A457B00C2E159 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D9EAB05B1C3D9E2B00FAB1A7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D9EAB05C1C3D9E2B00FAB1A7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9A19CC41C18B9DD00E2A653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A19CDD1C18B9DD00E2A653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A19CE81C18B9DD00E2A653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9A19CBE1C18B9DD00E2A653 = {
+			isa = PBXGroup;
+			children = (
+				D9A19CC91C18B9DD00E2A653 /* NovusMondus */,
+				D9A19CE31C18B9DD00E2A653 /* NovusMondusTests */,
+				D9A19CEE1C18B9DD00E2A653 /* NovusMondusUITests */,
+				D9A19CC81C18B9DD00E2A653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9A19CC81C18B9DD00E2A653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9A19CC71C18B9DD00E2A653 /* Novus Mondus.app */,
+				D9A19CE01C18B9DD00E2A653 /* Novus Mondus.xctest */,
+				D9A19CEB1C18B9DD00E2A653 /* Novus Mondus.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9A19CC91C18B9DD00E2A653 /* NovusMondus */ = {
+			isa = PBXGroup;
+			children = (
+				D9E808A41C5A0FE100C2E159 /* splash2.png */,
+				D9E808AA1C5A457B00C2E159 /* Icon.png */,
+				D9E808A21C5A0EAF00C2E159 /* cat.bg.png */,
+				D96739181C527A9A005BF701 /* placeholder.png */,
+				D9C8312C1C21DC9500A12A98 /* news.xml */,
+				D9A19CD01C18B9DD00E2A653 /* ViewController.h */,
+				D9A19CCD1C18B9DD00E2A653 /* AppDelegate.h */,
+				D9A19CCE1C18B9DD00E2A653 /* AppDelegate.m */,
+				D9A19CD11C18B9DD00E2A653 /* ViewController.m */,
+				D96739271C53F97B005BF701 /* LaunchScreen.storyboard */,
+				D9A19CD31C18B9DD00E2A653 /* Main.storyboard */,
+				D9A19CD61C18B9DD00E2A653 /* Assets.xcassets */,
+				D9A19CDB1C18B9DD00E2A653 /* Info.plist */,
+				D9A19CCA1C18B9DD00E2A653 /* Supporting Files */,
+				D9EAB05B1C3D9E2B00FAB1A7 /* DetailViewController.h */,
+				D9EAB05C1C3D9E2B00FAB1A7 /* DetailViewController.m */,
+			);
+			name = NovusMondus;
+			path = testTableView;
+			sourceTree = "<group>";
+		};
+		D9A19CCA1C18B9DD00E2A653 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9A19CCB1C18B9DD00E2A653 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9A19CE31C18B9DD00E2A653 /* NovusMondusTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9A19CE41C18B9DD00E2A653 /* testTableViewTests.m */,
+				D9A19CE61C18B9DD00E2A653 /* Info.plist */,
+			);
+			name = NovusMondusTests;
+			path = testTableViewTests;
+			sourceTree = "<group>";
+		};
+		D9A19CEE1C18B9DD00E2A653 /* NovusMondusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9A19CEF1C18B9DD00E2A653 /* testTableViewUITests.m */,
+				D9A19CF11C18B9DD00E2A653 /* Info.plist */,
+			);
+			name = NovusMondusUITests;
+			path = testTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9A19CC61C18B9DD00E2A653 /* Novus Mondus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A19CF41C18B9DD00E2A653 /* Build configuration list for PBXNativeTarget "Novus Mondus" */;
+			buildPhases = (
+				D9A19CC31C18B9DD00E2A653 /* Sources */,
+				D9A19CC41C18B9DD00E2A653 /* Frameworks */,
+				D9A19CC51C18B9DD00E2A653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Novus Mondus";
+			productName = testTableView;
+			productReference = D9A19CC71C18B9DD00E2A653 /* Novus Mondus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9A19CDF1C18B9DD00E2A653 /* Novus MondusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A19CF71C18B9DD00E2A653 /* Build configuration list for PBXNativeTarget "Novus MondusTests" */;
+			buildPhases = (
+				D9A19CDC1C18B9DD00E2A653 /* Sources */,
+				D9A19CDD1C18B9DD00E2A653 /* Frameworks */,
+				D9A19CDE1C18B9DD00E2A653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9A19CE21C18B9DD00E2A653 /* PBXTargetDependency */,
+			);
+			name = "Novus MondusTests";
+			productName = testTableViewTests;
+			productReference = D9A19CE01C18B9DD00E2A653 /* Novus Mondus.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9A19CEA1C18B9DD00E2A653 /* Novus MondusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A19CFA1C18B9DD00E2A653 /* Build configuration list for PBXNativeTarget "Novus MondusUITests" */;
+			buildPhases = (
+				D9A19CE71C18B9DD00E2A653 /* Sources */,
+				D9A19CE81C18B9DD00E2A653 /* Frameworks */,
+				D9A19CE91C18B9DD00E2A653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9A19CED1C18B9DD00E2A653 /* PBXTargetDependency */,
+			);
+			name = "Novus MondusUITests";
+			productName = testTableViewUITests;
+			productReference = D9A19CEB1C18B9DD00E2A653 /* Novus Mondus.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9A19CBF1C18B9DD00E2A653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = nd;
+				TargetAttributes = {
+					D9A19CC61C18B9DD00E2A653 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D9A19CDF1C18B9DD00E2A653 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D9A19CC61C18B9DD00E2A653;
+					};
+					D9A19CEA1C18B9DD00E2A653 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D9A19CC61C18B9DD00E2A653;
+					};
+				};
+			};
+			buildConfigurationList = D9A19CC21C18B9DD00E2A653 /* Build configuration list for PBXProject "Novus Mondus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9A19CBE1C18B9DD00E2A653;
+			productRefGroup = D9A19CC81C18B9DD00E2A653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9A19CC61C18B9DD00E2A653 /* Novus Mondus */,
+				D9A19CDF1C18B9DD00E2A653 /* Novus MondusTests */,
+				D9A19CEA1C18B9DD00E2A653 /* Novus MondusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9A19CC51C18B9DD00E2A653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E808AB1C5A457B00C2E159 /* Icon.png in Resources */,
+				D9E808A51C5A0FE100C2E159 /* splash2.png in Resources */,
+				D9C8312D1C21DC9500A12A98 /* news.xml in Resources */,
+				D9A19CD71C18B9DD00E2A653 /* Assets.xcassets in Resources */,
+				D96739191C527A9A005BF701 /* placeholder.png in Resources */,
+				D96739281C53F97B005BF701 /* LaunchScreen.storyboard in Resources */,
+				D9E808A31C5A0EAF00C2E159 /* cat.bg.png in Resources */,
+				D9A19CD51C18B9DD00E2A653 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A19CDE1C18B9DD00E2A653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A19CE91C18B9DD00E2A653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9A19CC31C18B9DD00E2A653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A19CD21C18B9DD00E2A653 /* ViewController.m in Sources */,
+				D9A19CCF1C18B9DD00E2A653 /* AppDelegate.m in Sources */,
+				D9A19CCC1C18B9DD00E2A653 /* main.m in Sources */,
+				D9EAB05D1C3D9E2B00FAB1A7 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A19CDC1C18B9DD00E2A653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A19CE51C18B9DD00E2A653 /* testTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A19CE71C18B9DD00E2A653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A19CF01C18B9DD00E2A653 /* testTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9A19CE21C18B9DD00E2A653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9A19CC61C18B9DD00E2A653 /* Novus Mondus */;
+			targetProxy = D9A19CE11C18B9DD00E2A653 /* PBXContainerItemProxy */;
+		};
+		D9A19CED1C18B9DD00E2A653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9A19CC61C18B9DD00E2A653 /* Novus Mondus */;
+			targetProxy = D9A19CEC1C18B9DD00E2A653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9A19CD31C18B9DD00E2A653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9A19CD41C18B9DD00E2A653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9A19CF21C18B9DD00E2A653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9A19CF31C18B9DD00E2A653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9A19CF51C18B9DD00E2A653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.EPITA.testTableView;
+				PRODUCT_NAME = "Novus Mondus";
+			};
+			name = Debug;
+		};
+		D9A19CF61C18B9DD00E2A653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.EPITA.testTableView;
+				PRODUCT_NAME = "Novus Mondus";
+			};
+			name = Release;
+		};
+		D9A19CF81C18B9DD00E2A653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.EPITA.testTableViewTests;
+				PRODUCT_NAME = "Novus Mondus";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Novus Mondus.app/Novus Mondus";
+			};
+			name = Debug;
+		};
+		D9A19CF91C18B9DD00E2A653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.EPITA.testTableViewTests;
+				PRODUCT_NAME = "Novus Mondus";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Novus Mondus.app/Novus Mondus";
+			};
+			name = Release;
+		};
+		D9A19CFB1C18B9DD00E2A653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.EPITA.testTableViewUITests;
+				PRODUCT_NAME = "Novus Mondus";
+				TEST_TARGET_NAME = testTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D9A19CFC1C18B9DD00E2A653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.EPITA.testTableViewUITests;
+				PRODUCT_NAME = "Novus Mondus";
+				TEST_TARGET_NAME = testTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9A19CC21C18B9DD00E2A653 /* Build configuration list for PBXProject "Novus Mondus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A19CF21C18B9DD00E2A653 /* Debug */,
+				D9A19CF31C18B9DD00E2A653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A19CF41C18B9DD00E2A653 /* Build configuration list for PBXNativeTarget "Novus Mondus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A19CF51C18B9DD00E2A653 /* Debug */,
+				D9A19CF61C18B9DD00E2A653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A19CF71C18B9DD00E2A653 /* Build configuration list for PBXNativeTarget "Novus MondusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A19CF81C18B9DD00E2A653 /* Debug */,
+				D9A19CF91C18B9DD00E2A653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A19CFA1C18B9DD00E2A653 /* Build configuration list for PBXNativeTarget "Novus MondusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A19CFB1C18B9DD00E2A653 /* Debug */,
+				D9A19CFC1C18B9DD00E2A653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9A19CBF1C18B9DD00E2A653 /* Project object */;
+}
